@@ -8,7 +8,7 @@ info:
     Use the Authorization header: "Authorization: Bearer <token>".
 
 servers:
-  - url: https://bugs-ricky-eval-proprietary.trycloudflare.com            
+  - url: https://beijing-inline-baghdad-national.trycloudflare.com            
     description: Local
 
 tags:
