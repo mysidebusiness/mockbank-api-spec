@@ -74,7 +74,7 @@ paths:
           required: false
           schema:
             type: string
-            example: CAD
+            example: UGX
       responses:
         '200':
           description: OK
@@ -411,7 +411,7 @@ components:
         currency:
           type: string
           description: ISO 4217 currency (3 letters)
-          example: CAD
+          example: UGX
           pattern: '^[A-Z]{3}$'
         nickname:
           type: string
@@ -443,7 +443,7 @@ components:
           $ref: '#/components/schemas/AccountStatus'
         currency:
           type: string
-          example: CAD
+          example: UGX
         nickname:
           type: string
         displayName:
